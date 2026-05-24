@@ -41,7 +41,7 @@ const int TARGET_POSITIONS[NUM_LEDS] = {
     (7 * STEPS_PER_REV) / NUM_LEDS   
 };
 
-const int TOLERANCE = 15; 
+const int TOLERANCE = 7; 
 
 AccelStepper stepper(AccelStepper::DRIVER, STP, DIR);
 Adafruit_ST7789 display = Adafruit_ST7789(CS, DC, RST);
